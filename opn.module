@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OPN feature.
+ */
+
+include_once 'opn.features.inc';
