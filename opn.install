@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file opn.install
+ */
+
+/**
+ * Implements hook_install().
+ */
+
+function opn_install() {
+  variable_set('pathauto_node_opn_article_pattern', 'technology-news/[node:title]');
+}
